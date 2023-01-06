@@ -254,15 +254,23 @@ footer p, footer li, footer i{
 /****MEDIA QUERY******/
 @media(max-width:800px) {
 h1{
-  font-size: 3rem;
+  font-size: 1.8rem;
 }
 h2{
-  font-size: 2rem;
+  font-size: 1.6rem;
+}
+h3{
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 p{
-  font-size: 1.9rem;
+  font-size: 1rem;
   line-height: 1.5;
+  font-size: 1.1rem;
+  font-weight: bold;
+  opacity: 70%;
 }
+
 
   nav {
     margin-left: 2em;
@@ -276,17 +284,19 @@ p{
   }
 
   .btn-one {
-    width: 30%;
-    height: 2em;
+    width: 35%;
+    height: 2.5em;
     margin-right: 1em;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
   }
 
   .small-btn-two{
-    width: 80%;
+    width: 75%;
     font-size: 1.3rem;
     font-weight: bold;
-    height: 3.5em;
+    height: 2.5em;
+    margin: 1.5em auto;
   }
 
 
@@ -296,11 +306,12 @@ p{
   }
 
   .top-container-description-box {
-    width: 85%;
+    width: 87%;
     text-align: center;
     margin: 0 auto;
     color: hsl(192, 100%, 9%);
   }
+
 
   .illustration-type-one-wrapper{
     width: 80%;
@@ -308,40 +319,72 @@ p{
     padding-top: 2.5em;
   }
 
-  .middle-container-type-two{
-    flex-direction:column;
+  .middle-container{
+    margin-top: 6em;
   }
 
-.middle-container-type-one{
-  flex-direction: column-reverse;
-
-}
-
-  .middle-container-description, .illustration-type-two-wrapper{
-    width: 95%;
+  .middle-container-description{
+    width: 100%;
     text-align:center;
-    margin-left: -1.5em;
     line-height: 1.5;
     font-weight:bold;
-}
+    margin-top: 2em;
+    padding-bottom: 4em;
+  }
+
+  .middle-container-type-one{
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: auto;
+    padding:0 1em;
+  }
+
+  .middle-container-type-two{
+    flex-direction:column;
+    width: 90%;
+    padding:0 1em;
+  }
+
+
+  .illustration-type-two-wrapper{
+    width: 90%;
+    padding-top: 4em
+  }
+
+ 
 .illustration-type-three-wrapper{
-  width: 95%;
+  padding-top: 4em;
+  width:95%;
 }
 .floating-container{
   width: 95%;
   font-size: 1.3rem;
   font-weight: bold;
+  position: relative;
+  margin-top: 10em;
 }
+
+.btn-two{
+  width: 70%;
+  height: 4.5em;
+  font-weight: bold;
+  margin-bottom: 4em;
+}
+
+
 .footer-container{
   flex-direction: column;
+  
 }
+
+
 .footer-column-one{
   width: 100%;
   margin: 3em auto;
 }
 
 .footer-column-one p, .footer-column-two li{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .fa-location-dot{
@@ -366,7 +409,7 @@ p{
   padding: 2em auto;
 }
 .fa-brands{
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 
 }
 .copy-right{
